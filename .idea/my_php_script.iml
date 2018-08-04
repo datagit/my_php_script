@@ -4,7 +4,5 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="MySF4EasyAdmin" />
-    <orderEntry type="module" module-name="laravel5.6_tutorial" />
   </component>
 </module>
