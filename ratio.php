@@ -47,13 +47,11 @@ if (!empty($key_value)) {
 }
 
 if (empty($key_value)) {
-    if ($random_ratio > $sum_percent) {
-        //3,4,5,6,7,8,9,10
-        $default_positions = range(1,10);
-        $positions = array_diff($default_positions, $positions);
-        $positions = array_values($positions);
-        $key_value = $positions[array_rand($positions)];
-    }
+    //3,4,5,6,7,8,9,10
+    $default_positions = range(1,10);
+    $positions = array_diff($default_positions, $positions);
+    $positions = array_values($positions);
+    $key_value = $positions[array_rand($positions)];
 
     echo "2. pick from random $key_value\n";
 }
